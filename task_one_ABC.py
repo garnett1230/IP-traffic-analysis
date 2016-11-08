@@ -78,4 +78,4 @@ for t in rate_per_5_minutes:
 print ' '
 print 'Task 1 C)'
 for key in distribution_of_package:
-	print 'the percentage of the package of size ' + key + ' is ' + '%.2f'%(distribution_of_package[key] * 100.0 / totalNumber) + '%'
+	 print 'the percentage of the package of size ' + key + ' is ' + '%.2f'%(distribution_of_package[key] * 100.0 / totalNumber) + '%'
