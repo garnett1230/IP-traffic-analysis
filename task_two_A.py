@@ -37,3 +37,4 @@ print 'Task 2 A)'
 for t in rate_per_5_minutes:
 	diff = max(t) - min(t)
 	print 'the average bit rate in ' + str(0 + rate_per_5_minutes.index(t) * 300) + '-' + str(299 + rate_per_5_minutes.index(t) * 300) + 's is p1: ' + '%.2f'%t[0] + ' kbps p2: ' + '%.2f'%t[1] + ' kbps p3: ' + '%.2f'%t[2] + ' kbps p4: ' + '%.2f'%t[3] + ' kbps Max Diff: ' + '%.2f'%diff + ' kbps'
+	
