@@ -33,3 +33,4 @@ print 'Task 1 D)'
 print 'The total Trafic is ' + str(totalByte) + ' bytes'
 for x in range(3):
 print 'No.' + str(x + 1) + ' source IP: ' + sourceIP[x][0] + ' Traffic: ' + str(sourceIP[x][1]) + ' bytes' + ' Traffic Percentage: ' + '%.2f'%(sourceIP[x][1] * 100.0 / totalByte) + '%'
+
