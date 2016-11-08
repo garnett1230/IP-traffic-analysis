@@ -37,6 +37,7 @@ while 1:
 		set_of_rate = bytes_in_5_minutes_set = [0, 0, 0, 0]
 		timeRound += 1
 
+		
 
 print 'Task 2 B)'
 for t in rate_per_5_minutes:
